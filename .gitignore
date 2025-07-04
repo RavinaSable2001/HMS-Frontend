@@ -40,3 +40,18 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore node_modules and environment files
+node_modules/
+dist/
+.env
+
+# System and IDE-specific folders/files
+.DS_Store
+.idea/
+.vscode/
+
+# Debug and lock files
+npm-debug.log*
+package-lock.json
+
